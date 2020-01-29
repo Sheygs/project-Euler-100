@@ -17,7 +17,7 @@ What is the largest prime factor of the given number ?
 //  A prime factor is a factor that is a prime no i.e. any of the prime numbers
 // that can be multiplied to give the original number
 
-// checks for a number is prime
+// check if a number is prime
 function isPrime(number){
   if (number < 2) return false;
   if (number === 2) return true;
@@ -29,7 +29,7 @@ function isPrime(number){
   return true;
 }
 
-// checks the largest prime factor
+// check the largest prime factor
 (function(number){
   let largestPrimeFactor = 2;
   for (let i = 3; i <= number; i++){
