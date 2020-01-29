@@ -19,3 +19,6 @@ function multiplesOf3and5(number){
 multiplesOf3and5(1000); // 233168
 multiplesOf3and5(49); // 543
 multiplesOf3and5(19564); // 89301183
+
+
+// Code needs refactoring
