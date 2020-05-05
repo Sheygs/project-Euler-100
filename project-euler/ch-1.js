@@ -1,4 +1,5 @@
-// Find the sum of all the multiples of 3 or 5 below the provided parameter value "
+// Find the sum of all the multiples of 3 or 5 below the provided parameter value
+// refactor code
 
 (function multiplesOf3or5(number){
   if (!Number.isInteger(number)) return;
@@ -11,8 +12,14 @@
     return sum; 
 })(1000); // 233168
 
-// multiplesOf3or5(49) => 543
-// multiplesOf3or5(19564) => 89301183
 
+function isMultiple(num){
+  if (!Number.isInteger(num)) return;
+  if (num % 3 === 0 || num % 5 === 0) return true;
+  return num;
+}
 
-// Code needs refactoring
+function range(num){}
+
+function sumAll(num){}
+
